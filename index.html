@@ -13,9 +13,9 @@
     </header>
     <div class="row mt-2">
         <div class="col text-center">
-            <button type="button" id="btnNuevo" class="btn btn-danger" onclick="nuevoJuego()">Nuevo Juego</button>
-            <button type="button" id="btnPedir" class="btn btn-success" onclick="nuevaCarta()">Pedir carta</button>
-            <button type="button" id="btnDetener" class="btn btn-primary" onclick="detener()">Detener</button>
+            <button type="button" id="btnNuevo" class="btn btn-danger" onclick="miModulo.nuevoJuego()">Nuevo Juego</button>
+            <button type="button" id="btnPedir" disabled class="btn btn-success" onclick="miModulo.nuevaCarta()">Pedir carta</button>
+            <button type="button" id="btnDetener" disabled class="btn btn-primary" onclick="miModulo.detener()">Detener</button>
         </div>
     </div>
     <div class="row container">
@@ -36,6 +36,6 @@
     </div>    
     <!--<script type="text/javascript" src="assets/js/ciclos/for.js"></script>-->
     <script type="text/javascript" src="assets/js/underscore-min.js"></script>
-    <script src="assets/js/juego.js"></script>
+    <script src="assets/js/juego-min.js"></script>
 </body>
 </html>
