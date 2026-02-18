@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #2F4F30;
+    scrollbar-width: none; /* Firefox */
+}
+
+.header{
+    background-color: #000000;
+    padding: 4px 0;
+    margin-bottom: 6px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 1.5rem;    
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.carta {
+    position:relative;
+    width:150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
